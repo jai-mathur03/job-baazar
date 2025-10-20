@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js",
-    "build": "npm start"
+    "build": "npm run build --prefix ../frontend",
     "postinstall": "npm install --prefix ../frontend && npm run build --prefix ../frontend"
   },
   "author": "",
